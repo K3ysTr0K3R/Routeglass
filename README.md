@@ -310,23 +310,6 @@ This makes it useful during:
 
 ---
 
-## Roadmap
-
-Planned improvements include:
-
-- IPv6 support
-- Custom fingerprint rule loading
-- JSON output
-- YAML output
-- CSV export
-- HTTP/2 fingerprinting
-- Screenshot collection
-- Web interface
-- Automatic rule updates
-- Plugin system
-
----
-
 ## Disclaimer
 
 This project was created for security research, defensive security assessments, asset inventory, and authorized penetration testing.
