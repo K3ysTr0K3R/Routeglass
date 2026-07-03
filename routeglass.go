@@ -24,12 +24,12 @@ import (
 )
 
 var (
-	flagIP        = flag.String("ip", "", "Single IP, CIDR (e.g. 192.168.1.0/24), or range (e.g. 192.168.1.1-192.168.1.10)")
-	flagFile      = flag.String("f", "", "File containing targets (one per line, same formats as -ip)")
+	flagIP        = flag.String("ip", "", "Single IP, CIDR")
+	flagFile      = flag.String("f", "", "File containing targets")
 	flagThreads   = flag.Int("t", 50, "Number of concurrent workers")
 	flagOutput    = flag.String("o", "", "Output file to write results")
-	flagAppend    = flag.Bool("append", false, "Append to output file (if -o is given)")
-	flagUserAgent = flag.String("user-agent", "", "Custom User-Agent (if empty, random real browser UA)")
+	flagAppend    = flag.Bool("append", false, "Append to output file")
+	flagUserAgent = flag.String("user-agent", "", "Custom User-Agent")
 	flagPorts     = flag.String("ports", "80", "Comma-separated ports to scan")
 )
 
